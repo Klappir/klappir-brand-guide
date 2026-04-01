@@ -1,0 +1,57 @@
+:root {
+  color-scheme: light;
+  font-family: "IBM Plex Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #fafafa;
+  color: #000000;
+  --color-green: #3c9e76;
+  --color-light-green: #e2ede8;
+  --color-blue: #3f6f96;
+  --color-dark-green: #075a38;
+  --color-purple: #62469f;
+  --color-peach: #fa4d56;
+  --color-light-peach: #ffecee;
+  --color-black: #000000;
+  --color-secondary-text: #666666;
+  --color-grey: #e1e1e1;
+  --color-light-grey: #efefef;
+  --color-white: #ffffff;
+  --color-page-background: #fafafa;
+  --color-dark-surface: #1a1a1a;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--color-page-background);
+}
+
+body,
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  appearance: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
